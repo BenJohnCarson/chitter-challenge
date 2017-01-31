@@ -40,9 +40,9 @@ $ rspec
 Technologies used
 -----------------
 
-*DataMapper ORM
-*Sinatra DSL
-*PostgreSQL Database
+* DataMapper ORM
+* Sinatra DSL
+* PostgreSQL Database
 
 User Stories
 -------
