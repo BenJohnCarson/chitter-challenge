@@ -1,14 +1,18 @@
-Chitter Challenge
-=================
+# Chitter Challenge
+#### Technologies: Sinatra, Ruby, DataMapper, PostgreSQL
 
+## Index
+* [Task](#Task)
+* [Installation](#Install)
+* [Usage](#Usage)
+* [User Stories](#Stories)
+
+## <a name="Task">Task</a>
 The week four challenge at Makers Academy, to build a 'Twitter' clone.
 
 Here is a link to the live version on [heroku](https://i-peep-freely.herokuapp.com)
 
-Installation
-------------
-
-
+## <a name="Install">Installation</a>
 * Clone from github
 ```
 $ git clone https://github.com/BenJohnCarson/chitter-challenge.git
@@ -37,16 +41,14 @@ $ rake db:auto_migrate
 $ rspec
 ```
 
-Technologies used
------------------
+## <a name="Usage">Usage</a>
+* To run the app
+```
+rackup app.rb -p 4000
+```
+* To use the site, simply sign-up and start peeping!
 
-* DataMapper ORM
-* Sinatra DSL
-* PostgreSQL Database
-
-User Stories
--------
-
+## <a name="Stories">User Stories</a>
 ```
 As a Maker
 So that I can post messages on Chitter as me
